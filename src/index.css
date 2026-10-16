@@ -103,6 +103,40 @@ body {
   line-height: 1.08;
 }
 
+.prose-title {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
+.prose-block {
+  margin-top: 40px;
+}
+
+.prose-block h3 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  line-height: 1.2;
+}
+
+.prose-block p {
+  margin: 8px 0 0;
+  max-width: 38em;
+  color: var(--color-stone);
+  font-size: 17px;
+  line-height: 1.47;
+  text-wrap: balance;
+}
+
+.tile.quiet {
+  min-height: 180px;
+}
+
 .tile {
   display: flex;
   min-height: 300px;
@@ -185,6 +219,10 @@ body {
     min-height: 460px;
     border-radius: 28px;
     padding: 56px 40px;
+  }
+
+  .tile.quiet {
+    min-height: 220px;
   }
 }
 

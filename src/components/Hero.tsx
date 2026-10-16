@@ -8,9 +8,7 @@ export function Hero() {
     >
       <div className="hero-rise max-w-[720px] text-center">
         <h1 className="display text-ink">UnionRepos</h1>
-        <p className="lede text-ink">
-          A GitHub organization for work published in the open.
-        </p>
+        <p className="lede text-ink">Personal repositories, united.</p>
         <a
           className="mt-5 inline-block text-[21px] leading-[1.19] text-link hover:underline"
           href={ORG_URL}

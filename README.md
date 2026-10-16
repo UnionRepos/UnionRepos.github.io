@@ -1,6 +1,6 @@
 # UnionRepos
 
-Official website for the [UnionRepos](https://github.com/UnionRepos) organization.
+Official website for [UnionRepos](https://github.com/UnionRepos), the organization that unites personal repositories.
 
 Built with React, TypeScript, Vite, and Tailwind CSS. Pushes to `main` deploy to [unionrepos.github.io](https://unionrepos.github.io/).
 

@@ -1,3 +1,4 @@
+import { About } from "./components/About";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Nav } from "./components/Nav";
@@ -14,6 +15,7 @@ export default function App() {
       <main id="content">
         <Hero />
         <Statement />
+        <About />
         <Repositories />
       </main>
       <Footer />

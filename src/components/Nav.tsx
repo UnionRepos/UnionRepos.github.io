@@ -26,6 +26,9 @@ export function Nav() {
           UnionRepos
         </a>
         <div className="hidden items-center gap-8 md:flex">
+          <a className="text-[12px] text-ink/80 hover:text-ink" href="#about">
+            About
+          </a>
           <a className="text-[12px] text-ink/80 hover:text-ink" href="#repositories">
             Repositories
           </a>
@@ -51,6 +54,13 @@ export function Nav() {
       </nav>
       {open ? (
         <div id="site-menu" className="border-t border-black/10 px-[22px] py-2 md:hidden">
+          <a
+            href="#about"
+            className="block py-3 text-[17px] text-ink"
+            onClick={() => setOpen(false)}
+          >
+            About
+          </a>
           <a
             href="#repositories"
             className="block py-3 text-[17px] text-ink"

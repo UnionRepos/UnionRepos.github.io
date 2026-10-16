@@ -35,7 +35,7 @@ export function Repositories() {
     <section id="repositories" className="scroll-mt-16 bg-canvas px-3 pt-20 pb-3">
       <h2 className="section-title text-ink">Repositories</h2>
       {status.kind === "loading" ? (
-        <div className="tile featured" role="status">
+        <div className="tile featured quiet" role="status">
           <h3>Loading.</h3>
         </div>
       ) : null}
@@ -52,7 +52,7 @@ export function Repositories() {
       {status.kind === "ready" && status.repos.length === 0 ? (
         <div className="tile featured">
           <h3>No public repositories yet.</h3>
-          <p>When a repository is published, it will appear here.</p>
+          <p>When a personal repository joins the organization, it will appear here.</p>
           <a className="action" href={ORG_URL} target="_blank" rel="noreferrer">
             Open the organization on GitHub
             <span className="sr-only"> (opens in a new tab)</span>
